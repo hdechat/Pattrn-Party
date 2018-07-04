@@ -1,0 +1,68 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+header {
+  background: #2F2235;
+  display: flex;
+  height: 73px;
+  justify-content: space-between;
+  position: relative;
+  width: 100vw;
+}
+
+header h1 {
+  color: #D1D2D3;
+  font-weight: 300;
+  margin: auto 2.4em;
+}
+
+header .title-color-blue {
+  color: #34D1D1;
+}
+
+header .student-name {
+  font-size: 1.5em;
+  padding-right: 0.6em;
+}
+
+main {
+  height: 100vh;
+  margin: auto;
+  text-align: center;
+  width: 90%;
+}
+
+article {
+  margin: 3em auto;
+  width: 100%;
+}
+
+article .article-title {
+  color: #666666;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+article h2{
+  font-weight: 300;
+  padding-left: 0.5em;
+}
+
+article .horizontal-line {
+  background-color: #D1D2D3;
+  height: 3px;
+  line-height: 1px;
+  margin-top: 1.4em;
+  width: 80%;
+}
+
+button {
+  background: #2F2235;
+  border: none;
+  color: #D1D2D3;
+  font-size: 1.4rem;
+  height: 4rem;
+  width: 26rem;
+}
