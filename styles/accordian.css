@@ -1,0 +1,23 @@
+div.accordian__wrapper {
+  border: solid;
+  margin: auto;
+  width: 90%;
+}
+
+nav ul.accordian__tabs-wrapper {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-between;
+  margin-top: 0px;
+  padding: 0px;
+}
+
+li.accordian__tab {
+  font-size: 24px;
+  height: 4em;
+  line-height: 100px;
+  width: 25%;
+}
+
+section.page__wrapper {
+}
