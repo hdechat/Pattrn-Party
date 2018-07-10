@@ -23,7 +23,8 @@ let isMobile;
 
 if (isMobile === false) {
   $('.accordian__tab').on('click', function(event) {
-    $('.accordian__tabs-wrapper').find('.acc__tab-is-active').removeClass('acc__tab-is-active')
+    $('.accordian__tabs-wrapper').find('.acc__tab-is-active')
+      .removeClass('acc__tab-is-active')
     $(this).addClass('acc__tab-is-active')
     $.each($('.accordian__page-wrapper'), (index, page) => {
       page.id == event.target.value ? $(page).show() : $(page).hide()
@@ -36,7 +37,8 @@ if (isMobile === false) {
     if ($(this).parent().hasClass('.acc__tab-is-active')) {
       $(this).parent().css('background', '#fff').next().show()
       $(this).text('-')
-      $('.accordian__tabs-wrapper').find('.acc__tab-is-active').toggleClass('acc__tab-is-active').next().hide()
+      $('.accordian__tabs-wrapper').find('.acc__tab-is-active')
+        .toggleClass('acc__tab-is-active').next().hide()
     } else {
       $(this).parent().css('background', '#f2f2f2').next().hide()
       $(this).text('+')

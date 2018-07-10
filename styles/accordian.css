@@ -61,6 +61,10 @@ p.accordian__page-text {
   text-align: left
 }
 
+button.accordian__view-code {
+  cursor: pointer;
+}
+
 .acc__tab-is-active {
   background: #fff !important;
   border-top: solid 1.5px #d1d2d3 !important;
