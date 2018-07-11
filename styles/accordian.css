@@ -1,0 +1,132 @@
+div.accordian__wrapper {
+  margin: auto;
+  width: 90%;
+}
+
+nav ul.accordian__tabs-wrapper {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-between;
+  margin: 0px;
+  padding: 0px;
+}
+
+li.accordian__tab {
+  background: #f2f2f2;
+  border-top: solid 1.5px #fff;
+  border-right: solid 1.3px #fff;
+  border-left: solid 1.5px #fff;
+  box-shadow: 0px 1.5px 0px 0px #d1d2d3;
+  color: #666666;
+  font-size: 24px;
+  height: 2.5em;
+  line-height: 70px;
+  width: 25%;
+}
+
+span.mobile-button {
+  display: none;
+}
+
+section.accordian__page-wrapper {
+  border-right: solid 1.5px #d1d2d3;
+  border-bottom: solid 1.5px #d1d2d3;
+  border-left: solid 1.5px #d1d2d3;
+  display: flex;
+  justify-content: space-between;
+  padding: 2em 1.5em;
+}
+
+img.accordian__page-image {
+  border: solid 2px #d1d2d3;
+  height: 27em;
+  width: 33%;
+}
+
+div.accordian__page-content {
+  width: 63%;
+}
+
+h3.accordian__page-title {
+  color: #000;
+  font-size: 24px;
+  text-align: left;
+}
+
+p.accordian__page-text {
+  color: #666666;
+  font-size: 23.3px;
+  line-height: 2rem;
+  margin-top: 1.3em;
+  text-align: left
+}
+
+button.accordian__view-code {
+  cursor: pointer;
+}
+
+.acc__tab-is-active {
+  background: #fff !important;
+  border-top: solid 1.5px #d1d2d3 !important;
+  border-right: solid 1.5px #d1d2d3 !important;
+  border-left: solid 1.5px #d1d2d3 !important;
+  box-shadow: 0px 0px 0px 0px #fff !important;
+  font-weight: 600;
+}
+
+@media screen and (max-width: 500px) {
+  div.accordian__wrapper {
+    width: 100%;
+  }
+
+  nav ul.accordian__tabs-wrapper {
+    border: solid 1.5px #d1d2d3;
+    display: block;
+  }
+
+  li.accordian__tab {
+    border: solid 1px #fff;
+    box-sizing: border-box;
+    line-height: 50px;
+    padding-left: 1rem;
+    text-align: left;
+    width: 100%;
+  }
+
+  span.mobile-button {
+    display: inline-block;
+    font-size: 2rem;
+    left: 10rem;
+    position: relative;
+  }
+
+  section.accordian__page-wrapper {
+    border: none;
+    display: block;
+    padding: 0;
+  }
+
+  img.accordian__page-image {
+    height: 8em;
+    width: 99%;
+  }
+
+  div.accordian__page-content {
+    padding: 1em;
+    width: 90%;
+  }
+
+  h3.accordian__page-title {
+    font-size: 22px;
+    margin: 0;
+  }
+
+  hr {
+    margin-top: 12px
+  }
+
+  p.accordian__page-text {
+    font-size: 20px;
+    margin-top: 1em;
+  }
+}

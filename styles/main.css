@@ -1,6 +1,7 @@
 body {
   background: #FFF;
   font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
 }
 
 header {
@@ -24,6 +25,7 @@ header .title-color-blue {
 
 header .student-name {
   font-size: 1.5em;
+  font-weight: 600;
   padding-right: 0.6em;
 }
 
@@ -47,6 +49,7 @@ article .article-title {
   color: #666666;
   display: flex;
   justify-content: space-between;
+  margin-bottom: 4.3em;
 
 }
 
@@ -69,6 +72,7 @@ button {
   color: #D1D2D3;
   font-size: 1.4rem;
   height: 4rem;
+  margin-top: 5rem;
   width: 26rem;
 }
 
@@ -79,12 +83,14 @@ button {
 
   header {
     display: block;
+    height: 100px;
     position: fixed;
     top: 0;
+    z-index: 1;
   }
 
   header h1 {
-    margin: 0;
+    margin: 0.5em auto 0.3em auto;
   }
 
   header .student-name {
@@ -96,7 +102,7 @@ button {
   }
 
   article {
-    margin: 7em auto;
+    margin: 8.5em auto;
   }
 
   article .article-title {
@@ -104,14 +110,15 @@ button {
   }
 
   article h2 {
-    margin: 0;
+    font-size: 19px;
+    margin: 12px auto 6px auto;
   }
 
   .horizontal-line {
     display: block;
     height: 1px;
-    margin: 0.2em auto;
-    width: 20%;
+    margin: 0.4em auto;
+    width: 27%;
   }
 
   button {
