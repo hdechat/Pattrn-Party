@@ -87,6 +87,7 @@ button.accordian__view-code {
   li.accordian__tab {
     border: solid 1px #fff;
     box-sizing: border-box;
+    line-height: 50px;
     padding-left: 1rem;
     text-align: left;
     width: 100%;
@@ -100,17 +101,32 @@ button.accordian__view-code {
   }
 
   section.accordian__page-wrapper {
+    border: none;
     display: block;
     padding: 0;
   }
 
   img.accordian__page-image {
     height: 8em;
-    width: 100%;
+    width: 99%;
   }
 
   div.accordian__page-content {
     padding: 1em;
-    display: 100%;
+    width: 90%;
+  }
+
+  h3.accordian__page-title {
+    font-size: 22px;
+    margin: 0;
+  }
+
+  hr {
+    margin-top: 12px
+  }
+
+  p.accordian__page-text {
+    font-size: 20px;
+    margin-top: 1em;
   }
 }

@@ -83,12 +83,14 @@ button {
 
   header {
     display: block;
+    height: 100px;
     position: fixed;
     top: 0;
+    z-index: 1;
   }
 
   header h1 {
-    margin: 0;
+    margin: 0.5em auto 0.3em auto;
   }
 
   header .student-name {
@@ -100,7 +102,7 @@ button {
   }
 
   article {
-    margin: 7em auto;
+    margin: 8.5em auto;
   }
 
   article .article-title {
@@ -108,14 +110,15 @@ button {
   }
 
   article h2 {
-    margin: 0;
+    font-size: 19px;
+    margin: 12px auto 6px auto;
   }
 
   .horizontal-line {
     display: block;
     height: 1px;
-    margin: 0.2em auto;
-    width: 20%;
+    margin: 0.4em auto;
+    width: 27%;
   }
 
   button {
