@@ -56,6 +56,7 @@ article .article-title {
 article h2{
   font-weight: 300;
   padding-left: 0.5em;
+  white-space: nowrap;
 }
 
 .horizontal-line {
@@ -101,7 +102,7 @@ button {
     display: block;
   }
 
-  article {
+  article.l-accordian-tabs {
     margin: 8.5em auto;
   }
 
@@ -112,6 +113,7 @@ button {
   article h2 {
     font-size: 19px;
     margin: 12px auto 6px auto;
+    padding: 0;
   }
 
   .horizontal-line {
