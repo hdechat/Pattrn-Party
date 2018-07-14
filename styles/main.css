@@ -77,7 +77,7 @@ button {
   width: 26rem;
 }
 
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 500px) {
   body {
     text-align: center;
   }
