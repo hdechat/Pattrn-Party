@@ -22,6 +22,8 @@ section.flex__card-wide {
 h3.flexible__card-title {
   padding-left: 1em;
   text-align: left;
+  overflow: hidden;
+  text-overflow: ellipsis;
   white-space: nowrap;
 }
 
@@ -30,12 +32,18 @@ img.flexible__page-image {
   width: 100%;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
   div.flexible__wrapper {
-    margin: 0;
+    margin: 0 auto;
   }
 
   section.flexible__card {
     grid-column: span 1;
+  }
+}
+
+@media screen and (device-aspect-ratio: 40/71) {
+  div.flexible__wrapper {
+    margin: 0;
   }
 }
