@@ -33,24 +33,30 @@ section.accordian__page-wrapper {
   border-bottom: solid 1.5px #d1d2d3;
   border-left: solid 1.5px #d1d2d3;
   display: flex;
+  height: 30.5vw;
   justify-content: space-between;
   padding: 2em 1.5em;
 }
 
 img.accordian__page-image {
   border: solid 2px #d1d2d3;
-  height: 27em;
+  height: 100%;
   width: 33%;
 }
 
 div.accordian__page-content {
+  height: 100%;
+  overflow: hidden;
   width: 63%;
 }
 
 h3.accordian__page-title {
   color: #000;
   font-size: 24px;
+  overflow: hidden;
   text-align: left;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 p.accordian__page-text {
@@ -58,6 +64,7 @@ p.accordian__page-text {
   font-size: 23.3px;
   line-height: 2rem;
   margin-top: 1.3em;
+  overflow: hidden;
   text-align: left;
 }
 
@@ -78,7 +85,7 @@ button.accordian__view-code {
   div.accordian__wrapper {
     width: 100%;
   }
-
+f
   nav ul.accordian__tabs-wrapper {
     border: solid 1.5px #d1d2d3;
     display: block;
@@ -102,6 +109,7 @@ button.accordian__view-code {
 
   section.accordian__page-wrapper {
     border: none;
+    height: fit-content;
     display: block;
     padding: 0;
   }
