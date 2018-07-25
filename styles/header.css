@@ -96,4 +96,9 @@ input.header__search::placeholder {
     top: -70px;
     width:79%;
   }
+
+  input.header__search::placeholder {
+  padding-left: 0;
+}
+
 }
