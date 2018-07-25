@@ -41,9 +41,10 @@ input.header__search {
   border: solid #666666 2px;
   height: 2em;
   left: 0.5em;
+  padding-left: 2em;
   position: relative;
   top: 1.5em;  
-  width: 12em;
+  width: 10em;
 }
 
 input.header__search::placeholder {
@@ -69,8 +70,8 @@ input.header__search::placeholder {
     bottom: 14px;
     display: inline-block;
     font-size: 26px;
-    left: 70px;
     line-height: 30px;
+    padding: 25px 35px 25px 170px;
     position: relative;
   }
 
@@ -90,9 +91,9 @@ input.header__search::placeholder {
   input.header__search {
     display: none;
     left: 0;
-    padding: 0;
+    padding: 0 0 0 20%;
     position: relative;
     top: -70px;
-    width:99%;
+    width:79%;
   }
 }

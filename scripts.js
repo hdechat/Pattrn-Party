@@ -50,7 +50,7 @@ if (isMobile === false) {
 
 //HEADER
 if ($('.is-hidden').css('display') === 'inline-block') {
-    $('.header').on('click', function() {
+    $('.header__main').on('click', function() {
       $('.header__link').toggle()
       $('.header__search').toggle()
     }) 
