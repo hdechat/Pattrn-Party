@@ -1,3 +1,5 @@
+//ACCORDIAN
+
 $(window).on('load', () => {
   let isMobile
   $('.mobile-button').css('display') === 'inline-block'
@@ -31,7 +33,7 @@ if (isMobile === false) {
     })
   })
 } else {
-  $('.mobile-button').on('click', function(event) {
+  $('.mobile-button').on('click', function() {
     $(this).parent().toggleClass('.acc__tab-is-active')
 
     if ($(this).parent().hasClass('.acc__tab-is-active')) {
@@ -44,4 +46,12 @@ if (isMobile === false) {
       $(this).text('+')
     }
   })
+}
+
+//HEADER
+if ($('.is-hidden').css('display') === 'inline-block') {
+    $('.header').on('click', function() {
+      $('.header__link').toggle()
+      $('.header__search').toggle()
+    }) 
 }

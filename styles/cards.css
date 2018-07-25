@@ -32,6 +32,15 @@ img.flexible__page-image {
   width: 100%;
 }
 
+@media screen and (min-width: 1500px) {
+
+  body {
+    margin: auto;
+    width: 1300px;
+  }
+
+}
+
 @media screen and (max-width: 600px) {
   div.flexible__wrapper {
     margin: 0 auto;

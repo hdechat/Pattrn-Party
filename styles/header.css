@@ -1,0 +1,98 @@
+nav ul.header__links-wrapper {
+    background: #d1d2d3;
+    background-image: url('../assets/circleX.png');
+    background-position: 1em;
+    background-repeat: no-repeat;
+    background-size: 7%;
+    color: #666666;
+    display: flex;
+    font-size: 23px;
+    height: 5.5em;
+    justify-content: space-around;
+    line-height: 5em;
+    list-style-type: none;
+    padding-left: 7em;
+    margin: auto;
+    width: 43.6em;
+}
+
+h2.is-hidden {
+  display: none;
+}
+
+li.header__link {
+  margin-left: -1em;
+}
+
+a {
+  color: #666666;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #34d1d1;
+}
+
+input.header__search {
+  background: #f2f2f2;
+  background-image: url('../assets/magGlass.png');
+  background-repeat: no-repeat;
+  background-size: 18%;
+  border: solid #666666 2px;
+  height: 2em;
+  left: 0.5em;
+  position: relative;
+  top: 1.5em;  
+  width: 12em;
+}
+
+input.header__search::placeholder {
+  line-height: 3em;
+  padding-left: 3em;
+}
+
+@media screen and (max-width: 500px) {
+  div.header__wrapper {
+    width: 100%;
+  }
+
+  nav ul.header__links-wrapper {
+    background-size: 25%;
+    display: block;
+    height: 3.5em;
+    padding: 0;
+    margin: auto 0;
+    width: 100%;
+  }
+    
+  h2.is-hidden {
+    bottom: 14px;
+    display: inline-block;
+    font-size: 26px;
+    left: 70px;
+    line-height: 30px;
+    position: relative;
+  }
+
+  .header__dropdown {
+    display: none;
+  }
+
+  li.header__link {
+    background: #f2f2f2;
+    display: none;
+    margin: 0;
+    position: relative;
+    top: -34px;
+    width: 100%;
+  }
+
+  input.header__search {
+    display: none;
+    left: 0;
+    padding: 0;
+    position: relative;
+    top: -70px;
+    width:99%;
+  }
+}

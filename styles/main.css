@@ -2,6 +2,7 @@ body {
   background: #FFF;
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
+  width: 100%;
 }
 
 header {
@@ -87,7 +88,7 @@ button {
   header {
     display: block;
     height: 100px;
-    position: fixed;
+    position: absolute;
     top: 0;
     z-index: 1;
   }
@@ -97,7 +98,7 @@ button {
   }
 
   header .student-name {
-    font-size: 1em;
+    font-size: 1em ;
   }
 
   header .is-hidden {
