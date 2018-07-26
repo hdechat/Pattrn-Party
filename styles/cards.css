@@ -1,0 +1,58 @@
+div.flexible__wrapper {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(auto-fit, minmax(285px, 1fr));
+  margin: auto;
+  width: 90%;
+}
+
+section.flexible__card {
+  border: solid 2px #d1d2d3;
+  height: 290px;
+}
+
+section.flex__card-square {
+  grid-column: span 1;
+}
+
+section.flex__card-wide {
+  grid-column: span 2
+}
+
+h3.flexible__card-title {
+  padding-left: 1em;
+  text-align: left;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+img.flexible__page-image {
+  height: 80%;
+  width: 100%;
+}
+
+@media screen and (min-width: 1500px) {
+
+  body {
+    margin: auto;
+    width: 1300px;
+  }
+
+}
+
+@media screen and (max-width: 600px) {
+  div.flexible__wrapper {
+    margin: 0 auto;
+  }
+
+  section.flexible__card {
+    grid-column: span 1;
+  }
+}
+
+@media screen and (device-aspect-ratio: 40/71) {
+  div.flexible__wrapper {
+    margin: 0;
+  }
+}

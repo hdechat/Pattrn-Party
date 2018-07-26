@@ -7,6 +7,8 @@
     <link rel="stylesheet" type="text/css" href="normalize.css" />
     <link rel="stylesheet" type="text/css" href="styles/main.css" />
     <link rel="stylesheet" type="text/css" href="styles/accordian.css" />
+    <link rel="stylesheet" type="text/css" href="styles/cards.css" />
+    <link rel="stylesheet" type="text/css" href ="styles/header.css" />
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,600" 
       rel="stylesheet">
   </head>
@@ -23,7 +25,6 @@
           <h2>ACCORDIAN TABS</h2>
           <h2 class="horizontal-line"></h2>
         </div>
-
         <div class="accordian__wrapper">
           <nav>
             <ul class="accordian__tabs-wrapper">
@@ -41,7 +42,7 @@
               </li>
             </ul>
           </nav>
-          <section class="accordian__page-wrapper" id="1"">
+          <section class="accordian__page-wrapper" id="1">
             <img 
               class="accordian__page-image"
               src="assets/image-placeholder.png" 
@@ -57,8 +58,7 @@
                 aliquam erat volutpat. Ut wisi enim ad minim veniam, 
                 quis nostrud exerci tation ullamcorper suscipit lobortis nisl 
                 ut aliquip ex ea commodo consequat.
-              </p>
-              <p class="accordian__page-text">
+                <br /><br />
                 Duis autem vel eum iriure dolor in hendrerit in vulputate velit 
                 esse molestie consequat, vel illum dolore eu feugiat nulla 
                 facilisis at vero eros et accumsan et iusto odio dignissim qui 
@@ -66,7 +66,7 @@
               </p>
             </div>
           </section>
-           <section class="accordian__page-wrapper" id="2">
+          <section class="accordian__page-wrapper" id="2">
             <img 
               class="accordian__page-image"
               src="assets/image-placeholder.png" 
@@ -142,25 +142,93 @@
             </div>
           </section>
         </div>
-        <a href="#">
+        <a href="https://codepen.io/hdechat/pen/mjMPjW">
           <button class="accordian__view-code">VIEW CODE</button>
         </a>
-      <!-- FLEXIBLE CARDS   -->
       </article>
+      <!-- FLEXIBLE CARDS   -->
       <article class="l-flexible-cards">
         <div class="article-title">
           <h2>FLEXIBLE CARDS</h2>
           <h2 class="horizontal-line"></h2>
         </div>
-        <button>VIEW CODE</button>
+
+
+        <div class="flexible__wrapper">
+             <section class="flexible__card flex__card-wide">
+               <h3 class="flexible__card-title">Lorem ipsum dolor sit</h3>
+               <img 
+                class="flexible__page-image" 
+                src="assets/image-placeholder.png" 
+                alt="placeholder image" />
+             </section>
+             <section class="flexible__card flex__card-square">
+               <h3 class="flexible__card-title">Lorem ipsum</h3>
+               <img 
+                class="flexible__page-image" 
+                src="assets/image-placeholder.png" 
+                alt="placeholder image" />
+             </section>
+             <section class="flexible__card flex__card-square">
+               <h3 class="flexible__card-title">Lorem ipsum dolor sit</h3>
+               <img 
+                class="flexible__page-image" 
+                src="assets/image-placeholder.png" 
+                alt="placeholder image" />
+             </section>
+             <section class="flexible__card flex__card-square">
+               <h3 class="flexible__card-title">Lorem ipsum dolor sit amet&hellip;</h3>
+               <img 
+                class="flexible__page-image" 
+                src="assets/image-placeholder.png" 
+                alt="placeholder image" />
+             </section>
+             <section class="flexible__card flex__card-square">
+               <h3 class="flexible__card-title">Lorem ipsum</h3>
+               <img 
+                class="flexible__page-image" 
+                src="assets/image-placeholder.png" 
+                alt="placeholder image" />
+             </section>
+             <section class="flexible__card flex__card-square">
+               <h3 class="flexible__card-title">Lorem ipsum</h3>
+               <img 
+                class="flexible__page-image" 
+                src="assets/image-placeholder.png" 
+                alt="placeholder image" />
+             </section>
+             <section class="flexible__card flex__card-wide">
+               <h3 class="flexible__card-title">Lorem ipsum dolor sit</h3>
+               <img 
+                class="flexible__page-image" 
+                src="assets/image-placeholder.png" 
+                alt="placeholder image" />
+             </section>
+        </div>
+        <a href="https://codepen.io/hdechat/pen/OwjXPv?editors=1100">
+          <button>VIEW CODE</button>
+        </a>
       </article>
       <!-- HEADER BAR -->
-      <article class="l-header-bar">
+      <article class="l-header">
         <div class="article-title">
           <h2>HEADER BAR</h2>
           <h2 class="horizontal-line"></h2>
         </div>
-        <button>VIEW CODE</button>
+        <div class="header__wrapper">
+          <nav class="header">
+            <ul class="header__links-wrapper">
+              <h3 class="header__main is-hidden">MENU</h3>
+                  <li class="header__link"><a href="#">Navigation Link 1</a></li>
+                  <li class="header__link"><a href="#">Navigation Link 2</a></li>
+                  <li class="header__link"><a href="#">Navigation Link 3</a></li>
+                  <input class="header__search" type="input" placeholder="Search" />
+            </ul>
+          </nav>
+        </div>
+        <a href="https://codepen.io/hdechat/pen/bjreVx?editors=0110">
+          <button>VIEW CODE</button>
+        </a>
       </article>
     </main>
     <script 
