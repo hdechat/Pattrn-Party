@@ -1,5 +1,6 @@
 div.accordian__wrapper {
   margin: auto;
+  height: fit-content;
   width: 90%;
 }
 
@@ -23,11 +24,6 @@ li.accordian__tab {
   height: 2.5em;
   line-height: 70px;
   width: 25%;
-}
-
-li.accordian__tab:hover {
-  color: #34d1d1;
-  background: #666666;
 }
 
 span.mobile-button {

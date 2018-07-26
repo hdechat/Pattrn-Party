@@ -49,7 +49,7 @@ if (isMobile === false) {
 }
 
 //HEADER
-if ($('.is-hidden').css('display') === 'inline-block') {
+if ($('h3.is-hidden').css('display') === 'inline-block') {
     $('.header__main').on('click', function() {
       $('.header__link').toggle()
       $('.header__search').toggle()
